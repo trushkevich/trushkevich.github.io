@@ -5,7 +5,6 @@ date:   2014-12-17 02:25:59
 categories: posts
 ---
 
-
 This post contains some notes regarding different aspects of work with email in Ruby on Rails.
 
 ## **Sending email**
