@@ -1,0 +1,12 @@
+# Site settings
+title: Anton Trushkevich's Blog
+email: anton.trushkevich@gmail.com
+description: >
+  Anton Trushkevich's blog. Contains different programming-related stuff, code snippets, useful links and so on.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://trushkevich.github.io/" # the base hostname & protocol for your site
+twitter_username: trushkevich
+github_username:  trushkevich
+
+# Build settings
+markdown: kramdown

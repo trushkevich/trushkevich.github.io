@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Intro"
+date:   2014-12-16 19:05:30
+categories: posts
+---
+
+Hello everyone!
+
+My name is Anton Trushkevich, I'm a Ruby / Ruby on Rails developer from Minsk, Belarus and I’m starting a blog at last. I’m going to post here different programming-related stuff, code snippets, useful links and so on. Posts can be pretty large as well as just one-liners. Comments to all posts are very appreciated - both positive and negative. I hope this blog will be helpful for someone.
+
+Ok, let’s go.
