@@ -3,7 +3,7 @@ description:      'This blog contains different programming-related memos, code 
 disqus_shortname: techmemos
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              https://trushkevich.github.io
+url:              http://trushkevich.github.io
 # url:              http://localhost:4000
 
 # Owner/author information
