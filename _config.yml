@@ -1,12 +1,41 @@
-# Site settings
-title: Anton Trushkevich's Blog
-email: anton.trushkevich@gmail.com
-description: >
-  Anton Trushkevich's blog. Contains different programming-related stuff, code snippets, useful links and so on.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://trushkevich.github.io/" # the base hostname & protocol for your site
-twitter_username: trushkevich
-github_username:  trushkevich
+title:            Technical memos
+description:      'This blog contains different programming-related memos, code snippets, useful links and so on.'
+disqus_shortname: techmemos
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+# url:              https://trushkevich.github.io
+url:              http://localhost:4000
 
-# Build settings
-markdown: kramdown
+# Owner/author information
+owner:
+  name:           Anton Trushkevich
+  avatar:         trushkevich.jpg
+  bio:            "I'm a Ruby / Ruby on Rails developer from Minsk, Belarus."
+  email:          trushkevich@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        trushkevich
+  facebook:
+  github:         trushkevich
+  stackexchange:  http://stackoverflow.com/users/1478058/trushkevich?tab=summary
+  linkedin:       https://www.linkedin.com/profile/view?id=232769040
+  instagram:
+  flickr:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Belarus/Minsk
+future:      true
+highlighter: true
+markdown:    kramdown
+
+# Amount of posts to show on home page
+paginate: 5
