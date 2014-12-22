@@ -268,6 +268,8 @@ bundle exec script/mailman_daemon start|stop|restart|status
 Next let's create the actual [Mailman][mailman] server script. Here is an example of what it could look like:
 
 {% highlight ruby %}
+# script/mailman_daemon
+
 #!/usr/bin/env ruby
 require "mailman"
 
