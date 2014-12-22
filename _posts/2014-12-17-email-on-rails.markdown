@@ -5,7 +5,7 @@ date:   2014-12-17 02:25:59
 categories: posts
 ---
 
-This post contains some notes regarding different aspects of work with email in Ruby on Rails.
+This post contains some notes regarding different aspects of work with email in Ruby on Rails and covers such topics as sending and receiving email as well as using address tagging.
 
 ## **Sending email**
 
@@ -27,7 +27,6 @@ config.action_mailer.raise_delivery_errors = true
 config.action_mailer.delivery_method = :letter_opener
 config.action_mailer.default_url_options = { host: 'localhost:3000', protocol: 'http' }
 ~~~
-
 
 Another option is to use the [MailCatcher][mail_catcher] gem which is also great but [Letter Opener][letter_opener] is just simpler so I prefer using it.
 
@@ -355,7 +354,7 @@ Our mailer class `MessageMailer` could look like this:
 
 ~~~ ruby
 class ApplicationMailer < ActionMailer::Base
-  layout 'application_mailer"
+  layout 'application_mailer'
   default from: 'postoffice@example.com'
 end
 ~~~
