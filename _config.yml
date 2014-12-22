@@ -34,7 +34,7 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Belarus/Minsk
 future:      true
-highlighter: true
+pygments: true
 markdown:    kramdown
 
 # Amount of posts to show on home page
